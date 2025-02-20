@@ -28,8 +28,8 @@ int main() {
         }
         for(int i=0;i<8;i++)  // understanding all possible positon for queen
         {
-            dexq.insert({xq+dx[i],yq+dy[i]});
-        }
+            dexq.insert({xq+dx[i],yq+dy[i]}); // dx[i] represents the horizontal move
+        }                                     // dy[i] represents the vertical move
         int ans = 0;
 
         for(auto i:dexk) //This means "for each element i in dexk".
